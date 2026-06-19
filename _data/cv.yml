@@ -1,14 +1,9 @@
 cv:
   name: Arthit Suriyawongkul
-  label: Researcher in AI Ethics &amp; Data Governance
+  headline: Researcher in AI Ethics & Data Governance
   email: suriyawa@tcd.ie
-  url: https://bact.github.io
-  location: Dublin, Ireland &amp; Bangkok, Thailand
-  image: ""
-  summary: >
-    Information engineer and researcher working on AI ethics, data governance,
-    and the software engineering standards that connect the technical and legal
-    layers of accountable AI.
+  website: https://bact.github.io
+  location: Dublin, Ireland & Bangkok, Thailand
 
   social_networks:
     - network: GitHub
@@ -24,9 +19,8 @@ cv:
     Education:
       - institution: Trinity College Dublin
         location: Dublin, Ireland
-        url: https://www.scss.tcd.ie/
-        area: Computer Science (AI Ethics &amp; Data Governance)
-        studyType: PhD
+        area: Computer Science (AI Ethics & Data Governance)
+        degree: PhD
         start_date: 2022
         end_date: present
         highlights:
@@ -37,21 +31,21 @@ cv:
       - institution: Thammasat University
         location: Bangkok, Thailand
         area: Anthropology
-        studyType: MA
+        degree: MA
         start_date: 2008
         end_date: 2012
 
       - institution: The University of Edinburgh
         location: Edinburgh, UK
-        area: Cognitive Science &amp; Natural Language
-        studyType: MSc
+        area: Cognitive Science & Natural Language
+        degree: MSc
         start_date: 2003
         end_date: 2004
 
       - institution: Thammasat University
         location: Bangkok, Thailand
         area: Information Technology
-        studyType: BSc
+        degree: BSc
         start_date: 1996
         end_date: 2000
 
@@ -73,55 +67,34 @@ cv:
         end_date: "2025-12"
 
       - company: Thai Netizen Network
-        position: Co-Founder &amp; Board Secretary
+        position: Co-Founder & Board Secretary
         location: Bangkok, Thailand
         start_date: 2008
         end_date: present
         summary: Digital civil-rights advocacy on privacy, free expression, and internet governance.
 
-    Standards &amp; Open Source:
-      - company: System Package Data Exchange (SPDX), Linux Foundation
-        position: Contributor — AI &amp; Dataset profiles
-        location: Remote
-        start_date: ""
-        end_date: present
+    Standards & Open Source:
+      - name: "SPDX (Linux Foundation) — Contributor, AI & Dataset profiles"
         highlights:
           - Co-author, Linux Foundation whitepaper "Building an AI Bill of Materials".
           - Google Summer of Code 2025 contributor (SPDX 3.0 support for ntia-conformance-checker).
 
-      - company: W3C Data Privacy Vocabularies and Controls CG (DPVCG)
-        position: Contributor
-        location: Remote
-        start_date: ""
-        end_date: present
+      - name: "W3C DPVCG — Contributor"
 
-      - company: PyThaiNLP
-        position: Core contributor / maintainer
-        location: Remote
-        start_date: ""
-        end_date: present
+      - name: "PyThaiNLP — Core contributor / maintainer"
 
-      - company: Open-source localization &amp; translation
-        position: Thai localization contributor
-        location: Remote
-        start_date: ""
-        end_date: present
-        highlights:
-          - Thai localization/translation for Mozilla Firefox, OONI Probe, OONI Explorer, and Signal.
+      - name: "Open-source localization — Thai (Mozilla Firefox, OONI Probe, OONI Explorer, Signal)"
 
     Skills:
-      - name: Research
-        icon: fa-solid fa-flask
-        keywords: "AI ethics, AI accountability, data governance, internet governance, digital anthropology"
-      - name: Standards
-        icon: fa-solid fa-list-check
-        keywords: "SPDX, AI BOM / SBOM, DPV, RDF / Linked Data, W3C vocabularies"
-      - name: Software
-        icon: fa-solid fa-code
-        keywords: "Python, NLP, MLOps, packaging, open-source tooling"
+      - label: Research
+        details: "AI ethics, AI accountability, data governance, internet governance, digital anthropology"
+      - label: Standards
+        details: "SPDX, AI BOM / SBOM, DPV, RDF / Linked Data, W3C vocabularies"
+      - label: Software
+        details: "Python, NLP, MLOps, packaging, open-source tooling"
 
     Languages:
-      - name: Thai
-        summary: "Native speaker"
-      - name: English
-        summary: "Fluent"
+      - label: Thai
+        details: Native speaker
+      - label: English
+        details: Fluent

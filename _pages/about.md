@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  PhD researcher in AI ethics &amp; data governance ·
+  PhD candidate in AI governance ·
   <a href='https://www.scss.tcd.ie/'>School of Computer Science and Statistics</a>,
   <a href='https://www.tcd.ie/'>Trinity College Dublin</a>
 
