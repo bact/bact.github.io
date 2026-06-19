@@ -5,16 +5,15 @@ permalink: /
 subtitle: >
   PhD researcher in AI ethics &amp; data governance ·
   <a href='https://www.scss.tcd.ie/'>School of Computer Science and Statistics</a>,
-  <a href='https://www.tcd.ie/'>Trinity College Dublin</a> ·
-  <a href='https://www.adaptcentre.ie/'>ADAPT Centre</a>
+  <a href='https://www.tcd.ie/'>Trinity College Dublin</a>
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Dublin, Ireland</p>
     <p>Bangkok, Thailand</p>
+    <p>Dublin, Ireland</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -34,8 +33,7 @@ I am an information engineer and researcher working at the intersection of
 **AI ethics, data governance, and software engineering standards**. I am
 currently a PhD researcher in AI ethics and data governance at the
 [School of Computer Science and Statistics](https://www.scss.tcd.ie/),
-[Trinity College Dublin](https://www.tcd.ie/), based at the
-[ADAPT Centre](https://www.adaptcentre.ie/) and funded by the
+[Trinity College Dublin](https://www.tcd.ie/), funded by the
 [Research Ireland Centre for Research Training in Digitally-Enhanced Reality (d-real)](https://d-real.ie/).
 
 My research asks how **software engineering practices and technical standards

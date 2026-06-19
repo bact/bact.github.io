@@ -1,9 +1,3 @@
-# =============================================================================
-# CV data (rendercv format) — rendered on /cv/
-# -----------------------------------------------------------------------------
-# NOTE: Items marked "TODO" could not be verified automatically. Please fill in
-# the correct institutions, dates, and details, then delete the TODO notes.
-# =============================================================================
 cv:
   name: Arthit Suriyawongkul
   label: Researcher in AI Ethics &amp; Data Governance
@@ -33,39 +27,39 @@ cv:
         url: https://www.scss.tcd.ie/
         area: Computer Science (AI Ethics &amp; Data Governance)
         studyType: PhD
-        start_date: 2022 # TODO: confirm start year
+        start_date: 2022
         end_date: present
         highlights:
           - Funded by Research Ireland Centre for Research Training in Digitally-Enhanced Reality (d-real).
           - Based at the ADAPT Centre, School of Computer Science and Statistics.
           - "Research: a vocabulary for system trustworthiness and accountability for automated decision-making."
 
-      - institution: "TODO: institution" # MA Anthropology
-        location: ""
+      - institution: Thammasat University
+        location: Bangkok, Thailand
         area: Anthropology
         studyType: MA
-        start_date: "" # TODO
-        end_date: "" # TODO
+        start_date: 2008
+        end_date: 2012
 
-      - institution: "TODO: institution" # MSc Cognitive Science & Natural Language
-        location: ""
+      - institution: The University of Edinburgh
+        location: Edinburgh, UK
         area: Cognitive Science &amp; Natural Language
         studyType: MSc
-        start_date: "" # TODO
-        end_date: "" # TODO
+        start_date: 2003
+        end_date: 2004
 
-      - institution: "TODO: institution" # BSc Information Technology
-        location: ""
+      - institution: Thammasat University
+        location: Bangkok, Thailand
         area: Information Technology
         studyType: BSc
-        start_date: "" # TODO
-        end_date: "" # TODO
+        start_date: 1996
+        end_date: 2000
 
     Experience:
       - company: ADAPT Centre, Trinity College Dublin
         position: PhD Researcher
         location: Dublin, Ireland
-        start_date: 2022 # TODO: confirm
+        start_date: 2022
         end_date: present
         summary: >
           Research on AI accountability, MLOps, and standards for documenting AI
@@ -73,15 +67,15 @@ cv:
           vocabularies).
 
       - company: Center for AI and Digital Policy (CAIDP)
-        position: Research Associate # TODO: confirm exact title
+        position: Research Group Member
         location: Remote
-        start_date: "" # TODO
-        end_date: present
+        start_date: "2025-09"
+        end_date: "2025-12"
 
       - company: Thai Netizen Network
-        position: Volunteer / Coordinator # TODO: confirm exact title
+        position: Co-Founder &amp; Board Secretary
         location: Bangkok, Thailand
-        start_date: "" # TODO
+        start_date: 2008
         end_date: present
         summary: Digital civil-rights advocacy on privacy, free expression, and internet governance.
 
