@@ -1,115 +1,218 @@
 ---
 ---
+@string{lf = {The Linux Foundation}}
+@string{acl = {Association for Computational Linguistics}}
+@string{ssrn = {Social Science Research Network}}
 
-@string{aps = {American Physical Society,}}
+% =============================================================================
+% Bibliography for al-folio (jekyll-scholar). Grouped by year automatically.
+% Per-entry fields used by this theme:
+%   selected={true}   -> shown on the homepage under "selected publications"
+%   abbr={...}         -> small venue tag on the left
+%   bibtex_show={true} -> adds a "BibTeX" button
+%   abstract, html, pdf, arxiv, doi -> action buttons / metric badges
+% =============================================================================
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
-
-@book{einstein1956investigations,
+@misc{rajbahadur2025aibom,
+  abbr        = {arXiv},
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  selected    = {true},
+  title       = {Building an Open {AIBOM} Standard in the Wild},
+  author      = {Rajbahadur, Gopi Krishnan and Gallaba, Keheliya and Rashno, Elyas and Suriyawongkul, Arthit and Bennet, Karen and Stewart, Kate and Hassan, Ahmed E.},
+  year        = {2025},
+  month       = oct,
+  publisher   = {arXiv},
+  arxiv       = {2510.07070},
+  doi         = {10.48550/arXiv.2510.07070},
+  html        = {https://arxiv.org/abs/2510.07070},
+  abstract    = {An experience report on developing the AI Bill of Materials (AIBOM) specification, an extension of the ISO/IEC 5962:2021 SPDX SBOM standard that captures AI components such as datasets and iterative training artifacts. Framed through Action Research, it documents a global, multi-stakeholder effort of over 90 contributors, validated against major regulations and ethical standards (EU AI Act, IEEE 7000), industry use cases, practitioner interviews, and an industrial case study.}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@misc{bennet2024aibom,
+  abbr        = {LF},
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  selected    = {true},
+  title       = {Implementing {AI} Bill of Materials ({AI} {BOM}) with {SPDX} 3.0: A Comprehensive Guide to Creating AI and Dataset Bill of Materials},
+  author      = {Bennet, Karen and Rajbahadur, Gopi Krishnan and Suriyawongkul, Arthit and Stewart, Kate},
+  year        = {2024},
+  month       = oct,
+  publisher   = lf,
+  html        = {https://www.linuxfoundation.org/research/ai-bom},
+  abstract    = {A comprehensive guide to creating AI and Dataset Bills of Materials using SPDX 3.0.}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@misc{abercrombie2024taxonomy,
+  abbr        = {arXiv},
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  selected    = {true},
+  title       = {A Collaborative, Human-Centred Taxonomy of {AI}, Algorithmic, and Automation Harms},
+  author      = {Abercrombie, Gavin and Benbouzid, Djalel and Giudici, Paolo and Golpayegani, Delaram and Hernandez, Julio and Noro, Pierre and Pandit, Harshvardhan and Paraschou, Eva and Pownall, Charlie and Prajapati, Jyoti and Sayre, Mark A. and Sengupta, Ushnish and Suriyawongkul, Arthit and Thelot, Ruby and Vei, Sofia and Waltersdorfer, Laura},
+  year        = {2024},
+  month       = jul,
+  publisher   = {arXiv},
+  arxiv       = {2407.01294},
+  doi         = {10.48550/arXiv.2407.01294},
+  html        = {https://arxiv.org/abs/2407.01294},
+  abstract    = {A collaborative, human-centred taxonomy of AI, algorithmic and automation harms, designed to be clear to a broad set of audiences and to be flexible, extensible, and interoperable. Refined iteratively with topic experts and crowdsourced annotation testing as a tool for civil society, educators, policymakers, product teams, and the public.}
 }
 
-@book{przibram1967letters,
+@inproceedings{phatthiyaphaibun2023pythainlp,
+  abbr        = {NLP-OSS},
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  selected    = {true},
+  title       = {{PyThaiNLP}: Thai Natural Language Processing in Python},
+  author      = {Phatthiyaphaibun, Wannaphong and Chaovavanich, Korakot and Polpanumas, Charin and Suriyawongkul, Arthit and Lowphansirikul, Lalita and Chormai, Pattarawat and Limkonchotiwat, Peerat and Suntorntip, Thanathip and Udomcharoenchaikit, Can},
+  booktitle   = {Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023)},
+  publisher   = acl,
+  address     = {Singapore},
+  year        = {2023},
+  month       = dec,
+  pages       = {25--36},
+  doi         = {10.18653/v1/2023.nlposs-1.4},
+  html        = {https://aclanthology.org/2023.nlposs-1.4},
+  abstract    = {PyThaiNLP is a free and open-source natural language processing library for the Thai language implemented in Python, providing software, models, and datasets for Thai. The paper outlines its functionalities, datasets and pre-trained language models, development milestones, and how industrial and research communities use it.}
+}
+
+@article{fourniertombs2023gender,
+  abbr        = {UNU},
+  bibtex_show = {true},
+  title       = {Gender-sensitive {AI} Policy in Southeast Asia},
+  author      = {Fournier-Tombs, Eleonore and Lee, JeongHyun and Suriyawongkul, Arthit and Raghunath, Preeti and Dailey, Matthew and Chatterjee, Joyee and Doneys, Philippe and Suthorn, Wanchanok and Thongprasert, Sirayuth and Villanueva, Kris and Belda, Febroza},
+  publisher   = {UNU Macau},
+  year        = {2023},
+  month       = jan,
+  html        = {http://collections.unu.edu/view/UNU:9076},
+  abstract    = {A multi-country, multi-stakeholder analysis (March--September 2022) across Thailand, Malaysia, Indonesia and the Philippines on the state of AI policy, perceived risks to women of AI, and possible policy solutions, with recommendations spanning societal-impact task forces, gender and AI guidelines, regional AI safety standardisation, and investment in women in AI.}
+}
+
+@article{celeste2022privacy,
+  abbr        = {NILQ},
+  bibtex_show = {true},
+  title       = {Digital Technology and Privacy Attitudes in Times of {COVID}-19: Formal Legality versus Legal Reality in Ireland},
+  author      = {Celeste, Edoardo and Montgomery, Sorcha and Suriyawongkul, Arthit},
+  journal     = {Northern Ireland Legal Quarterly},
+  volume      = {73},
+  number      = {2},
+  pages       = {283--309},
+  year        = {2022},
+  month       = jul,
+  doi         = {10.53386/nilq.v73i2.959},
+  html        = {https://nilq.qub.ac.uk/index.php/nilq/article/view/959},
+  abstract    = {A socio-legal interpretation of the SFI-funded PRIVATT empirical study in Ireland, finding shifted privacy attitudes and a greater willingness to share personal data during COVID-19 alongside persistent mistrust of institutions, and arguing that the essence of the rights to privacy and data protection cannot be compressed under EU law.}
+}
+
+@article{bandaranayake2021health,
+  abbr        = {SSRN},
+  bibtex_show = {true},
+  title       = {Health-Related Information and {COVID}-19: A Study of Sri Lanka and Thailand},
+  author      = {Bandaranayake, Ramathi and Ramasoota, Pirongrong and Natesan, Ashwini and Suriyawongkul, Arthit},
+  year        = {2021},
+  month       = may,
+  doi         = {10.2139/ssrn.3877617},
+  html        = {https://papers.ssrn.com/abstract=3877617},
+  abstract    = {Research on the COVID-19 pandemic in two Asia Pacific nations, Sri Lanka and Thailand, focusing on contact tracing and quarantine.}
+}
+
+@techreport{celeste2020privatt,
+  bibtex_show = {true},
+  title       = {{PRIVATT} -- Legal Analysis: Digital Technology and Privacy Attitudes in Times of Covid-19: Formal Legality vs Legal Reality in Ireland},
+  author      = {Celeste, Edoardo and Montgomery, Sorcha and Suriyawongkul, Arthit},
+  year        = {2020},
+  abstract    = {A socio-legal analysis of the PRIVATT empirical study, arguing that people tend to overlook the inalienable essence of the rights to privacy and data protection, and that widespread mistrust evidences a divergence between formal legality and legal reality in Ireland's COVID-19 technological measures.}
+}
+
+@techreport{greenleaf2019thailand,
+  abbr        = {SSRN},
+  bibtex_show = {true},
+  title       = {Thailand -- Asia's Strong New Data Protection Law},
+  author      = {Greenleaf, Graham and Suriyawongkul, Arthit},
+  type        = {SSRN Scholarly Paper},
+  institution = ssrn,
+  address     = {Rochester, NY},
+  year        = {2019},
+  month       = sep,
+  doi         = {10.2139/ssrn.3502671},
+  html        = {https://papers.ssrn.com/abstract=3502671},
+  abstract    = {An analysis of Thailand's Personal Data Protection Act of 2019, the first explicitly GDPR-based law enacted in Asia, examining its principles, enforcement, and the rules and exemptions still to be developed by its data protection authority.}
+}
+
+@techreport{greenleaf2018thailand,
+  abbr        = {SSRN},
+  bibtex_show = {true},
+  title       = {Thailand's Draft Data Protection Bill: Many Strengths, Too Many Uncertainties},
+  author      = {Greenleaf, Graham and Suriyawongkul, Arthit},
+  type        = {SSRN Scholarly Paper},
+  institution = ssrn,
+  address     = {Rochester, NY},
+  year        = {2018},
+  month       = may,
+  html        = {https://papers.ssrn.com/abstract=3227862},
+  abstract    = {A critical review of Thailand's 2018 draft Personal Data Protection Bill against international privacy instruments, concluding it is of reasonable strength by global standards except for deficiencies in the independence of its DPA and the excessive scope of potential exceptions.}
+}
+
+@article{suriyawongkul2016internet,
+  abbr        = {MADS},
+  bibtex_show = {true},
+  title       = {อุปลักษณ์ในการศึกษาอินเทอร์เน็ต [Metaphors in Internet Studies]},
+  author      = {สุริยะวงศ์กุล, อาทิตย์},
+  journal     = {วารสารสื่อ ศิลปะ และการออกแบบสื่อ [Journal of Media, Arts and Design Studies]},
+  volume      = {1},
+  number      = {1},
+  year        = {2016},
+  html        = {http://mediaartsdesign.org/publication/journal-of-mads-1-1/}
+}
+
+@phdthesis{suriyawongkul2012facebook,
+  abbr        = {Thesis},
+  bibtex_show = {true},
+  title       = {การเมืองบนเฟซบุ๊ก: วัฒนธรรม-การเมืองบนเครือข่ายสังคมออนไลน์ไทย พ.ศ. 2553-2555 [Politics on Facebook: Political Culture on Thai Online Social Networks, 2010-2012]},
+  author      = {สุริยะวงศ์กุล, อาทิตย์},
+  school      = {มหาวิทยาลัยธรรมศาสตร์ [Thammasat University]},
+  year        = {2012},
+  month       = aug,
+  html        = {https://bact.cc/2012/facebook-politics/}
+}
+
+@inproceedings{theeramunkong2007thai,
+  abbr        = {KICSS},
+  bibtex_show = {true},
+  title       = {A Framework for Constructing a Thai Medical Knowledge Base},
+  author      = {Theeramunkong, Thanaruk and Iamtana-anan, Pichai and Nattee, Cholwich and Suriyawongkul, Arthit and Nantajeewarawat, Ekawit and Aimmanee, Pakinee},
+  booktitle   = {Proceedings of the 2nd International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2007)},
+  address     = {Ishikawa, Japan},
+  year        = {2007},
+  month       = nov,
+  abstract    = {A framework for constructing a medical knowledge base in Thailand, covering data acquisition, keyword extraction, link construction, and ontology-based knowledge base construction, including Thai text analysis and annotation. The collected knowledge includes 1277 terms with 10530 information details.}
+}
+
+@inproceedings{stede2006summar,
+  bibtex_show = {true},
+  title       = {{SUMMaR}: Combining Linguistics and Statistics for Text Summarization},
+  author      = {Stede, Manfred and Bieler, H. and Dipper, Stefanie and Suriyawongkul, Arthit},
+  year        = {2006},
+  month       = may,
+  html        = {https://www.semanticscholar.org/paper/d768b47c635ac7c51d35d0539addc7c945badbdb},
+  abstract    = {A text summarization system using a hybrid approach of linguistic and statistical analysis, employing text-sort-specific knowledge of document structure and phrases indicating importance. The system is highly modular and entirely XML-based.}
+}
+
+@article{muqbil2014elephants,
+  abbr        = {GISWatch},
+  bibtex_show = {true},
+  title       = {When Elephants Fight: Communications Surveillance on the Rise in Thailand},
+  author      = {Muqbil, Mishari and Suriyawongkul, Arthit},
+  journal     = {Global Information Society Watch},
+  pages       = {240--243},
+  year        = {2014},
+  html        = {https://giswatch.org/en/country-report/communications-surveillance/thailand}
+}
+
+@article{suriyawongkul2011walls,
+  abbr        = {GISWatch},
+  bibtex_show = {true},
+  title       = {Walls of Fame, Witch Hunts, and the Power of the Crowd},
+  author      = {Suriyawongkul, Arthit},
+  journal     = {Global Information Society Watch},
+  pages       = {245--248},
+  year        = {2011},
+  html        = {https://giswatch.org/en/country-report/freedom-association/thailand}
 }

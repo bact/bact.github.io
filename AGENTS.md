@@ -1,56 +1,27 @@
-# Agent Guidelines for al-folio (v1.x)
+# Agent Guidelines — bact.github.io
 
-`al-folio` is the **starter repo** for the pluginized v1 architecture.
+Personal CV/academic site for Arthit Suriyawongkul, built on the al-folio v1.x Jekyll theme.
 
-## Read This First
+## What this repo owns
 
-- Start with `.github/copilot-instructions.md` for architecture, ownership boundaries, and CI expectations.
-- Use `docs/BOUNDARIES.md` as the source of truth for starter-vs-plugin ownership.
-- Use `.agents/skills/al-folio-bootstrap/SKILL.md` for new-site setup tasks.
-- Use `.agents/skills/al-folio-v1-migration/SKILL.md` for customized fork migrations.
-- `.codex/skills` and `.claude/skills` are symlinks to `.agents/skills` for agent-specific discovery.
+- Site config (`Gemfile`, `_config.yml`)
+- Personal content: `_pages/`, `_posts/`, `_projects/`, `_news/`, `_teachings/`, `_bibliography/`
+- Personal data: `_data/cv.yml`, `_data/socials.yml`, `_data/repositories.yml`, `_data/coauthors.yml`, `_data/citations.yml`
+- Assets: `assets/img/`, `assets/pdf/`, `assets/json/`, `assets/rendercv/`
+- CI/CD: `.github/workflows/deploy.yml`, `render-cv.yml`, `update-citations.yml`
 
-## What This Repo Owns
+Runtime (layouts, includes, Sass, plugins) lives in the `al_folio_core` and `al_*` gems — do not add those here.
 
-- Starter wiring (`Gemfile`, `_config.yml`)
-- Starter content and documentation
-- Cross-plugin integration tests
-- Visual regression tests
-
-Runtime/component logic belongs in owning plugin repos (`al_folio_core`, `al_folio_distill`, `al_search`, `al_icons`, `al_cookie`, and other `al-*` gems).
-Long-form documentation lives in `docs/`; keep this root file as the short discovery entry point for coding agents.
-
-## Validated Local Command Set
-
-Run from repo root:
+## Validated local commands
 
 ```bash
-npm ci
-npm run lint:prettier
-npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
-bash test/integration_comments.sh
-bash test/integration_plugin_toggles.sh
-bash test/integration_distill.sh
-bash test/integration_bootstrap_compat.sh
-bash test/integration_upgrade_cli.sh
-npx playwright install chromium webkit
-npm run test:visual
-bundle exec al-folio upgrade audit
-bundle exec al-folio upgrade overrides audit
-bundle exec al-folio upgrade report
-docker compose up -d
-curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
-docker compose logs --tail=80
-docker compose down
+bundle install
+bundle exec jekyll serve          # dev server → http://localhost:4000/
+bundle exec jekyll build          # production build to _site/
 ```
 
-Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-local `/tmp/_site` to avoid host bind-mount write deadlocks.
+## Routing rules
 
-## Agent Routing Rules
-
-- If change is starter wiring/docs/integration/visual testing: edit here.
-- If change is runtime feature behavior: route to owning plugin repo.
-- Do not add starter-local npm build scripts for theme/runtime assets.
-- Keep docs aligned with pluginized v1 ownership.
-- If you create or keep local overrides of plugin-owned files, run `bundle exec al-folio upgrade overrides audit` and commit `.al-folio-overrides.yml` after review.
+- Personal content changes (bio, projects, publications, CV data): edit files in this repo.
+- Theme/layout/feature bugs: report or PR to the upstream al-folio repos, not here.
+- Do not add `_includes/`, `_layouts/`, `_sass/`, or `_scripts/` directories — those belong in gems.
