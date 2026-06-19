@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Arthit Suriyawongkul",
-    "label": "Researcher in AI Ethics & Data Governance",
+    "label": "Researcher in AI Governance and Standards",
     "image": "",
     "email": "suriyawa@tcd.ie",
     "url": "https://bact.github.io",
-    "summary": "Information engineer and researcher working on AI ethics, data governance, and the software engineering standards that connect the technical and legal layers of accountable AI.",
+    "summary": "Information engineer and researcher working on AI governance and the software engineering standards that connect the technical and legal layers of accountable AI.",
     "location": {
-      "city": "Dublin",
-      "countryCode": "IE"
+      "city": "Bangkok",
+      "countryCode": "TH"
     },
     "profiles": [
       {
@@ -33,8 +33,8 @@
       "name": "ADAPT Centre, Trinity College Dublin",
       "position": "PhD Researcher",
       "location": "Dublin, Ireland",
-      "startDate": "2022-01-01",
-      "endDate": "",
+      "startDate": "2019-11-01",
+      "endDate": "2026-05-05",
       "summary": "Research on AI accountability, MLOps, and standards for documenting AI systems (AI Bill of Materials, trustworthiness and accountability vocabularies)."
     },
     {
@@ -51,6 +51,22 @@
       "startDate": "2008-12-01",
       "endDate": "",
       "summary": "Digital civil-rights advocacy on privacy, free expression, and internet governance."
+    },
+    {
+      "name": "Wisesight",
+      "position": "Product Owner of AI and Data Platform",
+      "location": "Bangkok, Thailand",
+      "startDate": "2017-11-16",
+      "endDate": "2019-08-30",
+      "summary": "Managed the development of a data platform and AI services for social media analytics."
+    },
+    {
+      "name": "United Nations University Institute in Macau",
+      "position": "Visiting Research Fellow",
+      "location": "Macau, China",
+      "startDate": "2022-09-01",
+      "endDate": "2022-12-31",
+      "summary": "Research on AI policy, governance, and standards."
     }
   ],
   "volunteer": [
@@ -80,9 +96,9 @@
       "institution": "Trinity College Dublin",
       "location": "Dublin, Ireland",
       "url": "https://www.tcd.ie/",
-      "area": "Computer Science (AI Ethics & Data Governance)",
+      "area": "Computer Science (AI Governance)",
       "studyType": "PhD",
-      "startDate": "2022-01-01",
+      "startDate": "2019-11-01",
       "endDate": ""
     },
     {
@@ -113,7 +129,7 @@
   "skills": [
     {
       "name": "Research",
-      "keywords": ["AI ethics", "AI accountability", "data governance", "internet governance", "digital anthropology"]
+      "keywords": ["AI accountability", "data governance", "internet governance", "digital anthropology"]
     },
     {
       "name": "Standards",
@@ -121,7 +137,7 @@
     },
     {
       "name": "Software",
-      "keywords": ["Python", "NLP", "MLOps", "packaging", "open-source tooling"]
+      "keywords": ["Python", "NLP", "MLOps", "open-source tooling"]
     }
   ],
   "languages": [

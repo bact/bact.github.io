@@ -1,6 +1,6 @@
 cv:
   name: Arthit Suriyawongkul
-  headline: Researcher in AI Ethics & Data Governance
+  headline: Researcher in AI Governance and Standards
   email: suriyawa@tcd.ie
   website: https://bact.github.io
   location: Dublin, Ireland & Bangkok, Thailand
@@ -19,14 +19,13 @@ cv:
     Education:
       - institution: Trinity College Dublin
         location: Dublin, Ireland
-        area: Computer Science (AI Ethics & Data Governance)
+        area: Computer Science (AI Governance)
         degree: PhD
-        start_date: 2022
+        start_date: 2019
         end_date: present
         highlights:
           - Funded by Research Ireland Centre for Research Training in Digitally-Enhanced Reality (d-real).
           - Based at the ADAPT Centre, School of Computer Science and Statistics.
-          - "Research: a vocabulary for system trustworthiness and accountability for automated decision-making."
 
       - institution: Thammasat University
         location: Bangkok, Thailand
@@ -53,8 +52,8 @@ cv:
       - company: ADAPT Centre, Trinity College Dublin
         position: PhD Researcher
         location: Dublin, Ireland
-        start_date: 2022
-        end_date: present
+        start_date: 2019
+        end_date: 2026
         summary: >
           Research on AI accountability, MLOps, and standards for documenting AI
           systems (AI Bill of Materials, trustworthiness and accountability
@@ -73,28 +72,40 @@ cv:
         end_date: present
         summary: Digital civil-rights advocacy on privacy, free expression, and internet governance.
 
+      - company: Wisesight
+        position: Product Owner, AI and Data Platform
+        location: Bangkok, Thailand
+        start_date: "2017-11"
+        end_date: "2019-08"
+        summary: Managed the development of a data platform and AI services for social media analytics.
+
+      - company: United Nations University Institute in Macau
+        position: Visiting Research Fellow
+        location: Macau, China
+        start_date: "2022-09"
+        end_date: "2022-12"
+        summary: Research on AI policy, governance, and standards.
+
     Standards & Open Source:
-      - name: "SPDX (Linux Foundation) — Contributor, AI & Dataset profiles"
-        highlights:
-          - Co-author, Linux Foundation whitepaper "Building an AI Bill of Materials".
-          - Google Summer of Code 2025 contributor (SPDX 3.0 support for ntia-conformance-checker).
+      - label: "SPDX (Linux Foundation) — AI & Dataset profiles"
+        details: "Co-author, LF whitepaper on AI BOM; GSoC 2025 contributor (SPDX 3.0 for ntia-conformance-checker)"
+      - label: "W3C DPVCG"
+        details: "Contributor"
+      - label: "PyThaiNLP"
+        details: "Core contributor / maintainer"
+      - label: "Open-source localization"
+        details: "Thai — Mozilla Firefox, OONI Probe, OONI Explorer, Signal"
 
-      - name: "W3C DPVCG — Contributor"
-
-      - name: "PyThaiNLP — Core contributor / maintainer"
-
-      - name: "Open-source localization — Thai (Mozilla Firefox, OONI Probe, OONI Explorer, Signal)"
-
-    Skills:
+    Technical Skills:
       - label: Research
-        details: "AI ethics, AI accountability, data governance, internet governance, digital anthropology"
+        details: "AI accountability, data governance, internet governance, digital anthropology"
       - label: Standards
         details: "SPDX, AI BOM / SBOM, DPV, RDF / Linked Data, W3C vocabularies"
       - label: Software
         details: "Python, NLP, MLOps, packaging, open-source tooling"
 
     Languages:
-      - label: Thai
-        details: Native speaker
-      - label: English
-        details: Fluent
+      - name: Thai
+        summary: Native speaker
+      - name: English
+        summary: Fluent
