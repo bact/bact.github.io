@@ -9,12 +9,13 @@ last_name: Suriyawongkul
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Arthit Suriyawongkul — researcher in AI ethics, data governance,
-  and software engineering standards for accountable AI.
-footer_text:
-keywords: Arthit Suriyawongkul, AI ethics, data governance, AI accountability, SPDX, AI BOM, PyThaiNLP, software standards # add your own keywords or leave empty
+  Personal website of Arthit Suriyawongkul — researcher in digital culture,
+  open source, and software engineering standards for accountable technology.
+footer_text: >
+  Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.
+keywords: Arthit Suriyawongkul, data protection, privacy, digital rights, AI ethics, data governance, AI accountability, SPDX, software bill of materials, AI BOM, PyThaiNLP, software standards # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🥕 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🍜 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bact.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root

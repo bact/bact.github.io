@@ -30,8 +30,8 @@ latest_posts:
 ---
 
 I am an information engineer and researcher working at the intersection of
-**AI ethics, data governance, and software engineering standards**. I am
-currently a PhD researcher in AI ethics and data governance at the
+**AI governance, open source, and software engineering standards**. I am
+currently a PhD candidate at the
 [School of Computer Science and Statistics](https://www.scss.tcd.ie/),
 [Trinity College Dublin](https://www.tcd.ie/), funded by the
 [Research Ireland Centre for Research Training in Digitally-Enhanced Reality (d-real)](https://d-real.ie/).
